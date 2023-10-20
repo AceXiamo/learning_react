@@ -3,7 +3,7 @@ import Dialog from "@/components/Dialog";
 
 function DialogContent() {
   return (
-    <div>
+    <div className="flex-auto grid place-content-center">
       <motion.button
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
